@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=divice-width, initial-scale=1.0">
+<title>University Website Design</title>
+<link rel="stylesheet" href="Style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<section class="Sub-header"> 
+	<nav>
+		<a href="Index.html"> <img src="images/logo.png" alt="logo"></a>
+		<div class="nav-links" id="navLinks"> 
+			 <i class="fa fa-times"  onclick="hideMenu()"></i>
+		<ul> 
+			<li> <a href="Index.html"> HOME</a> </li>
+			<li> <a href="About_page.html"> ABOUT </a> </li>	
+			<li> <a href="Courses.html"> COURSE </a> </li>	
+			<li> <a href="Blog.html"> BLOG </a> </li>	
+			<li> <a href="Contact.html"> CONTACT </a> </li>	
+		</ul>
+		</div>
+			 <i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav>
+	
+	<h1> Contact Us </h1>
+
+	</section>
+
+	<!--   Contact US   -->
+
+	<section class="location">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7693.254456723705!2d73.81846901018297!3d15.39664041248576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfc76d0d585fd1%3A0x70b00ad60ac96460!2sShri%20Hari%20Mandir%20(New%20Vaddem%20Shaka)!5e0!3m2!1sen!2sin!4v1624682931426!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+	</section>
+
+	<section class="contact-us">
+		<div class="row"> 
+			<div class="contact-col">
+				<div>
+					<i class="fa fa-home"></i>
+					<span>
+						<h5> XYZ Road, ABC Building</h5>
+						<p>Vasco, Goa, India</p>
+					</span>
+				</div>
+				<div>
+					<i class="fa fa-phone"></i>
+					<span>
+						<h5> 9022871382</h5>
+						<p>Monday to Saturday,  10AM to 6PM</p>
+					</span>
+				</div>
+				<div>
+					<i class="fa fa-phone"></i>
+					<span>
+						<h5> Officaiupadhyayvivek@gmail.com</h5>
+						 <p>Email Us Your Query </p>
+					</span>
+				</div>
+			</div>
+			<div class="contact-col">
+				<form action="Form_handler.php" method="POST">
+					<input type="text" name="name" placeholder="Enter your name" required>
+					<input type="text" name="email" placeholder="Enter email address" required>
+					<input type="text" name="subject" placeholder="Enter your subject" required>
+					<textarea rows="8" name="message" placeholder="Message" required></textarea>
+					<button type="submit" class="hero-btn red-btn"> Send Message </button>
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<!---------  Footer  ------------>
+
+<section class= "footer ">
+	<h4> About Us </h4>
+	<p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum similique placeat natus dolores illum nemo! Dolor quibusdam qui possimus, amet adipisci, alias delectus<br> eligendi iste illo magnam voluptatem deleniti neque!
+	<p>
+	<div class= "icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-linkedin"></i>
+	</div>
+	<p> Made with <i class="fa fa-heart-o"></i> Vivek Upadhyay </p>
+	
+</section>
+
+	<!---------JavaScript For Toggle Menu ------------>
+	
+	<script>
+
+		var navLinks = document.getElementById("navLinks");
+
+		function showMenu(){
+			navLinks.style.right = "0";
+		}
+
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+		}
+
+	</script>
+
+<body>
+</body>
+</html>

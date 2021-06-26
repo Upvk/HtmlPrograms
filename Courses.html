@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=divice-width, initial-scale=1.0">
+<title>University Website Design</title>
+<link rel="stylesheet" href="Style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<section class="Sub-header"> 
+	<nav>
+		<a href="Index.html"> <img src="images/logo.png" alt="logo"></a>
+		<div class="nav-links" id="navLinks"> 
+			 <i class="fa fa-times"  onclick="hideMenu()"></i>
+		<ul> 
+		<li> <a href="Index.html"> HOME</a> </li>
+			<li> <a href="About_page.html"> ABOUT </a> </li>	
+			<li> <a href="Courses.html"> COURSE </a> </li>	
+			<li> <a href="Blog.html"> BLOG </a> </li>	
+			<li> <a href="Contact.html"> CONTACT </a> </li>	
+		</ul>
+		</div>
+			 <i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav>
+	
+	<h1> Our Courses </h1>
+
+	</section>
+
+<!-----------Courses -------->
+
+<section class="Course">
+	<h1> Courses We Offer </h1>
+	<p> Courses Which We Offer are Unique and full of Fun, You Will Never Know That we are Learning Or Enjoying.</p>
+
+	<div class="row">
+		<div class="course-col">
+			<h3> Intermediate </h3>
+			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum similique placeat natus dolores illum nemo! Dolor quibusdam qui possimus, amet adipisci, alias delectus eligendi iste illo magnam voluptatem deleniti neque!</p>
+		</div>
+
+		<div class="course-col">
+			<h3> Degree </h3>
+			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum similique placeat natus dolores illum nemo! Dolor quibusdam qui possimus, amet adipisci, alias delectus eligendi iste illo magnam voluptatem deleniti neque!</p>
+		</div>
+
+		<div class="course-col">
+			<h3> Post Graduation </h3>
+			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum similique placeat natus dolores illum nemo! Dolor quibusdam qui possimus, amet adipisci, alias delectus eligendi iste illo magnam voluptatem deleniti neque!</p>
+		</div>
+
+	</div>
+
+</section>
+
+
+<!------   Facilities -------->
+
+<section class="facilities">
+	<h1> Our Facilities </h1>
+	<p>Our Facilities are the Best In The World</p>
+	<div class="row">
+		<div class="facilities-col">
+			<img src="images/library.png" alt="Library">
+			<h3>World Class Library</h3>
+			<p> Here Our World Class Facilities Will Amaze You In Different Way!</p>
+		</div>
+
+		<div class="facilities-col">
+			<img src="images/basketball.png" alt="BasketBall Ground">
+			<h3>Largest Play Ground</h3>
+			<p> Here Our World Class Facilities Will Amaze You In Different Way!</p>
+		</div>
+
+		<div class="facilities-col">
+			<img src="images/cafeteria.png" alt="Coffy Shop">
+			<h3>Tasty And Healthy Food</h3>
+			<p> Here Our World Class Facilities Will Amaze You In Different Way!</p>
+
+		</div>
+	</div>
+
+ </section>
+
+	<!---------  Footer  ------------>
+
+<section class= "footer ">
+	<h4> About Us </h4>
+	<p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum similique placeat natus dolores illum nemo! Dolor quibusdam qui possimus, amet adipisci, alias delectus<br> eligendi iste illo magnam voluptatem deleniti neque!
+	<p>
+	<div class= "icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-linkedin"></i>
+	</div>
+	<p> Made with <i class="fa fa-heart-o"></i> Vivek Upadhyay </p>
+	
+</section>
+
+	<!---------JavaScript For Toggle Menu ------------>
+	
+	<script>
+
+		var navLinks = document.getElementById("navLinks");
+
+		function showMenu(){
+			navLinks.style.right = "0";
+		}
+
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+		}
+
+	</script>
+
+<body>
+</body>
+</html>
