@@ -9,7 +9,7 @@
 .Header{ 
 	min-height: 100vh;
 	width: 100%;
-	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("images/banner.png");
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("banner.png");
 	background-position: center;
 	background-size: cover;
 	position: relative;
@@ -377,7 +377,7 @@ p{
 .Sub-header{
 	height: 50vh;
 	width: 100%;
-	background-image: linear-gradient(rgba(9,4,30,0.7),rgba(9,4,30,0.7)),url(images/background.jpg);
+	background-image: linear-gradient(rgba(9,4,30,0.7),rgba(9,4,30,0.7)),url(background.jpg);
 	background-position: center;
 	background-size: cover;
 	text-align:center;
